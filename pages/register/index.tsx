@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <main>
       {/* <Intro /> */}
-      <h1>Register</h1>
+      <h1 className="mt-[50%]" >Register</h1>
     </main>
   );
 };

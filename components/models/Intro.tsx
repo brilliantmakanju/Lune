@@ -10,9 +10,10 @@ const Intro = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="h-screen w-[100%] ml-[0px] flex flex-col gap-10 justify-center items-center relative md:hidden "
+      className="h-screen w-[100%] ml-[0px] flex flex-col gap-10 justify-center items-center relative md:hidden overflow-hidden mt-[-10px] "
       style={{ background: "url('loverBg2.jpg')" }}
     >
+      <div className="absolute top-[-50px]  left-0 w-full h-[110vh] bg-[#000000ba]"></div>
       <motion.h2
         initial={{ y: -25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -20,9 +21,9 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="text-[90px] w-[50%] tracking-wide leading-[5rem] text-center text-[#FFD639]  "
+        className="text-[50px] w-[90%] tracking-tight leading-[3.5rem] text-center text-[#FFD639] z-[3]  "
       >
-        Join Now
+        Join LuneDial And Find your Perfect Match
       </motion.h2>
       <motion.div
         initial={{ x: 25, opacity: 0 }}
