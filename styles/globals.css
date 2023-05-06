@@ -16,7 +16,7 @@
     @apply overflow-x-hidden relative bg-[#D3D5D7];
   }
   section {
-    @apply bg-no-repeat bg-cover bg-center bg-fixed mx-1 my-2;
+    @apply bg-no-repeat bg-cover bg-center lg:bg-fixed mx-1 my-2;
   }
 
   button {
@@ -33,6 +33,47 @@
     @apply text-2xl font-bold text-[#231F20];
   }
   nav {
-    @apply bg-transparent absolute top-0 left-0;
+    @apply bg-transparent absolute top-0 left-0 lg:relative;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:containers {
+    width: 100%;
+  }
+}
+@media (min-width: 1536px) {
+  @media (min-width: 640px) {
+    .\32xl\:containers {
+      max-width: 640px;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  @media (min-width: 768px) {
+    .\32xl\:containers {
+      max-width: 768px;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  @media (min-width: 1024px) {
+    .\32xl\:containers {
+      max-width: 1024px;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  @media (min-width: 1280px) {
+    .\32xl\:containers {
+      max-width: 1280px;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  @media (min-width: 1536px) {
+    .\32xl\:containers {
+      max-width: 2000px;
+    }
   }
 }

@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
 const Nav = () => {
-
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <>
@@ -16,11 +15,14 @@ const Nav = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className=" w-full  h-20 px-5 flex justify-between items-center z-[20] md:hidden "
+        className=" w-full  h-20 px-5 flex justify-between items-center z-[20] lg:mb-[-5em] px-10 xl:container lg:mx-auto xl:w-[200vw]  "
       >
         <Logo />
         <div className="lg:hidden  flex flex-col ">
-          <FaBars color={`${router.route === "/" ? "white" : "#231F20"}`} className="text-[40px]" />
+          <FaBars
+            color={`${router.route === "/" ? "white" : "#231F20"}`}
+            className="text-[40px]"
+          />
         </div>
       </motion.nav>
       {/* <nav></nav> */}

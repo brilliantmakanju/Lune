@@ -10,10 +10,9 @@ const Intro = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="h-screen w-[100%] ml-[0px] flex flex-col gap-10 justify-center items-center relative md:hidden overflow-hidden mt-[-10px] "
-      style={{ background: "url('loverBg2.jpg')" }}
+      className="h-screen w-[100%]  ml-[0px] flex flex-col gap-10 justify-center items-center relative  overflow-hidden mt-[-10px] bg-loverBg md:bg-loverBgMd lg:bg-loverBgLg md:w-[98.2vw] lg:w-screen  "
     >
-      <div className="absolute top-[-50px]  left-0 w-full h-[110vh] bg-[#000000ba]"></div>
+      <div className="absolute top-[-50px]  left-0 w-full h-[110vh] bg-[#000000ba]" />
       <motion.h2
         initial={{ y: -25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -21,7 +20,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="text-[50px] w-[90%] tracking-tight leading-[3.5rem] text-center text-[#FFD639] z-[3]  "
+        className="text-[30px] lg:text-[40px] w-[50%] tracking-tight leading-[3.5rem] text-center flex justify-center items-center text-[#FFD639] z-[3] md:w-[60%] xl:w-[20%] "
       >
         Join LuneDial And Find your Perfect Match
       </motion.h2>
@@ -32,7 +31,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="absolute flex flex-col justify-center items-center gap-10 bottom-[70px] "
+        className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[30px] md:pt-[200px] z-[3] "
       >
         <Link
           href="register"

@@ -12,7 +12,7 @@ const Footer = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="z-[200] flex  justify-start items-start gap-8 w-full py-12  relative md:hidden "
+      className="z-[200] flex  justify-center items-center gap-8 w-full py-12  relative md:hidden "
     >
       <Legal />
       <Career />

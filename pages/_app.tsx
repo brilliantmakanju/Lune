@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        className="h-screen overflow-y-scroll "
+        // className="h-screen   xl:container lg:mx-auto xl:w-[200vw]  "
         key={router.route}
         initial="initialState"
         animate="animateState"
