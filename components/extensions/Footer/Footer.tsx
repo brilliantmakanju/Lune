@@ -2,6 +2,8 @@ import Career from "./Career";
 import Legal from "./Legal";
 import Social from "./Social";
 import { motion } from "framer-motion";
+import Faq from "./Faq";
+import Bottom from "./Bottom";
 
 const Footer = () => {
   return (
@@ -12,14 +14,14 @@ const Footer = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="z-[200] flex  justify-center items-center gap-8 w-full py-12  relative md:hidden "
+      className="z-[20] flex flex-wrap gap-5 justify-start  items-start py-[100px] text-left place-content-start px-[20px] relative font-bold "
     >
       <Legal />
       <Career />
       <Social />
-      <div className="absolute bottom-0 flex justify-center items-center h-[40px] text-center left-0 w-full bg-[#A30000] text-[#FFD639] ">
-        2023 LuneDial
-      </div>
+      <Faq />
+      
+      <Bottom />
     </motion.footer>
   );
 };

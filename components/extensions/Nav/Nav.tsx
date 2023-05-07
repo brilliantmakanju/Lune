@@ -15,13 +15,13 @@ const Nav = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className=" w-full  h-20 px-5 flex justify-between items-center z-[20] lg:mb-[-5em] px-10 xl:container lg:mx-auto xl:w-[200vw]  "
+        className=" w-full  h-20 flex justify-between items-center z-[20] lg:mb-[-5em] px-5 xl:container lg:mx-auto xl:w-[200vw]  "
       >
         <Logo />
         <div className="lg:hidden  flex flex-col ">
           <FaBars
             color={`${router.route === "/" ? "white" : "#231F20"}`}
-            className="text-[40px]"
+            className="text-[30px]"
           />
         </div>
       </motion.nav>
