@@ -1,7 +1,15 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useCallback } from "react";
+import useLoginModal from "./hooks/useLoginModal";
 
 const Intro = () => {
+  const loginModal = useLoginModal();
+
+  const onClicks = useCallback(() => {
+    loginModal.onOpen();
+  }, [loginModal]);
+
   return (
     <motion.section
       initial={{ y: 25, opacity: 0 }}
@@ -10,7 +18,7 @@ const Intro = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="h-[110vh] w-screen  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] overflow-hidden bg-loverBgMd lg:bg-loverBgLg  "
+      className="h-[110vh] w-screen  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] overflow-hidden bg-loverBgMd lg:bg-loverBgLg   "
     >
       <div className="absolute top-[0px]  left-0 w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " />
       <motion.h2
@@ -33,18 +41,19 @@ const Intro = () => {
         }}
         className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
       >
-        <Link
-          href="/"
+        <div
+          // href="register"
+          onClick={() => onClicks()}
           className="flex font-bold bg-[#A30000] py-4 px-10 w-[150%] items-center justify-center text-center text-[#FFD639]  rounded-full "
         >
           Create account
-        </Link>
-        <Link
+        </div>
+        <div
           className="flex lg:hidden font-bold border-2  border-[#A30000] py-4 px-10 w-[150%] items-center justify-center text-[#FFD639] text-center rounded-full "
-          href="/"
+          // href="/"
         >
           Login
-        </Link>
+        </div>
       </motion.div>
     </motion.section>
   );
