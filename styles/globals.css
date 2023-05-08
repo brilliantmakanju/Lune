@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +34,7 @@
     @apply text-2xl font-bold text-[#231F20];
   }
   nav {
-    @apply bg-transparent absolute top-0 left-0 lg:relative;
+    @apply bg-transparent absolute top-0 left-0 lg:relative lg:w-[300vw];
   }
 }
 
@@ -76,4 +77,18 @@
       max-width: 2000px;
     }
   }
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+::-webkit-scrollbar-track{
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 0;
+  display: none;
 }

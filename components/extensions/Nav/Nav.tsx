@@ -2,6 +2,8 @@ import Logo from "./Logo";
 import { FaBars } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Links from "./Links";
+import CTA from "./CTA";
 
 const Nav = () => {
   const router = useRouter();
@@ -15,9 +17,15 @@ const Nav = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className=" w-full  h-20 flex justify-between items-center z-[20] lg:mb-[-5em] px-5 xl:container lg:mx-auto xl:w-[200vw]  "
+        className={`w-screen  h-20 flex justify-between items-center z-[100] lg:mb-[-5em] px-12  xl:w-[100vw] ${
+          router.route === "/" ? "bg-transparent " : "bg-[#121111a6]"
+        } `}
       >
-        <Logo />
+        <div className="flex gap-10 justify-start items-center ">
+          <Logo />
+          <Links />
+        </div>
+        <CTA />
         <div className="lg:hidden  flex flex-col ">
           <FaBars
             color={`${router.route === "/" ? "white" : "#231F20"}`}

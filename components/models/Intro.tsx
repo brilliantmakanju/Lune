@@ -10,9 +10,9 @@ const Intro = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="h-[110vh] w-[100%]  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] overflow-hidden bg-loverBg md:bg-loverBgMd lg:bg-loverBgLg md:w-[98.2vw] lg:w-screen  "
+      className="h-[110vh] w-screen  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] overflow-hidden bg-loverBgMd lg:bg-loverBgLg  "
     >
-      <div className="absolute top-[-40px]  left-0 w-full h-[110vh] bg-[#000000ba]  " />
+      <div className="absolute top-[0px]  left-0 w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " />
       <motion.h2
         initial={{ y: -25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -31,7 +31,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[10px] z-[3] "
+        className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
       >
         <Link
           href="register"
