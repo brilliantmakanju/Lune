@@ -22,7 +22,7 @@ const Nav = () => {
         } `}
       >
         <div className="flex gap-10 justify-start items-center ">
-          <Logo />
+          <Logo short long />
           <Links />
         </div>
         <CTA />

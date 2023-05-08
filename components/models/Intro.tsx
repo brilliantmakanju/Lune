@@ -34,7 +34,7 @@ const Intro = () => {
         className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
       >
         <Link
-          href="register"
+          href="/"
           className="flex font-bold bg-[#A30000] py-4 px-10 w-[150%] items-center justify-center text-center text-[#FFD639]  rounded-full "
         >
           Create account

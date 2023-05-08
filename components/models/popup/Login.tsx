@@ -4,17 +4,17 @@ import useLoginModal from "../hooks/useLoginModal";
 import Popup from "../Popup";
 
 const LoginModal = () => {
-  //   const loginModal = useLoginModal();
-  const loginModal = true;
+  const loginModal = useLoginModal();
+  //   const loginModal = true;
   const [isLoading, setLoading] = useState(false);
 
-  //   const onToggle = useCallback(() => {
-  //     if (isLoading) {
-  //       return;
-  //     }
+  const onToggle = useCallback(() => {
+    if (isLoading) {
+      return;
+    }
 
-  //     loginModal.onClose();
-  //   }, [isLoading, loginModal]);
+    loginModal.onClose();
+  }, [isLoading, loginModal]);
 
   const bodyContent = (
     <div className="flex flex-col justify-center items-center gap-2 mt-[20px] ">
@@ -50,10 +50,10 @@ const LoginModal = () => {
   return (
     <Popup
       disabled={isLoading}
-      isOpen={true}
+      isOpen={loginModal.isOpen}
       title="Get Started"
       actionLabel="Sign in"
-      //   onClose={true}
+      onClose={loginModal.onClose}
       body={bodyContent}
       footer={footerContent}
     />
