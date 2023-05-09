@@ -1,13 +1,20 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useCallback } from "react";
 import useLoginModal from "./hooks/useLoginModal";
 
 const Intro = () => {
   const loginModal = useLoginModal();
+  const router = useRouter();
 
   const onClicks = useCallback(() => {
     loginModal.onOpen();
   }, [loginModal]);
+
+  const onRegister = useCallback(() => {
+    router.push("/register");
+  }, [router]);
 
   return (
     <motion.section
@@ -27,9 +34,9 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="text-[30px] lg:text-[40px] w-[100%] px-[20px] tracking-tight leading-[3.5rem] text-center flex justify-center items-center text-[#FFD639] z-[3] md:w-[60%] lg:w-[70%] xl:w-[30%] mt-[-10em] lg:mt-[5em] "
+        className="text-[40px] lg:text-[50px] w-[100%] px-[20px] tracking-tighter leading-[3.5rem] text-center flex justify-center items-center text-[#FFD639] z-[3] md:w-[50%] md:px-[20px] lg:w-[80%] xl:w-[40%] mt-[-5em] md:mt-[4em] lg:mt-[1em] xl:text-[5em]  2xl:text-[5.5em] 2xl:w-[40%] ] 2xl:leading-[5rem] "
       >
-        Join LuneDial And Find your Perfect Match
+        Find your Perfect Match
       </motion.h2>
       <motion.div
         initial={{ x: 25, opacity: 0 }}
@@ -38,21 +45,22 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="flex flex-col justify-center items-center gap-10 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
+        className="flex flex-col justify-center items-center gap-5 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
       >
-        <div
-          // href="register"
-          onClick={() => onClicks()}
-          className="flex font-bold bg-[#A30000] py-4 px-10 w-[150%] items-center justify-center text-center text-[#FFD639]  rounded-full "
+        <Link
+          href="register"
+          // onClick={() => onRegister()}
+          className="flex font-bold bg-[#A30000] py-2 px-12 w-[150%] items-center justify-center text-center text-[#FFD639] text-[12.5px] rounded-full xl:text-[20px] "
         >
           Create account
-        </div>
-        <div
-          className="flex lg:hidden font-bold border-2  border-[#A30000] py-4 px-10 w-[150%] items-center justify-center text-[#FFD639] text-center rounded-full "
+        </Link>
+        <Link
+          href="register"
+          className="flex lg:hidden font-bold border-2  border-[#A30000] py-2 px-12 w-[150%] items-center justify-center text-[12.5px]  text-[#FFD639] text-center rounded-full "
           // href="/"
         >
-          Login
-        </div>
+          Log in
+        </Link>
       </motion.div>
     </motion.section>
   );

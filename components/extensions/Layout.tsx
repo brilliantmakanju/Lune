@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <motion.div
-      className="lg:container lg:mx-auto relative "
+      className="relative"
       key={router.route}
       initial="initialState"
       animate="animateState"

@@ -1,13 +1,15 @@
-import useLoginModal from "@/components/models/hooks/useLoginModal";
+// import useLoginModal from "@/components/models/hooks/useLoginModal";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useCallback } from "react";
 
 const CTA = () => {
-  const loginModal = useLoginModal();
+  // const loginModal = useLoginModal();
+  const router = useRouter();
 
   const onClicks = useCallback(() => {
-    loginModal.onOpen();
-  }, [loginModal]);
+    router.push("login");
+  }, [router]);
 
   return (
     <div className="lg:flex justify-end items-center hidden">

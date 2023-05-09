@@ -10,7 +10,7 @@ const Logo: React.FC<LogoProps> = ({ short, long }) => {
   return (
     <Link href={"/"}>
       <div
-        className={`relative flex h-[10rem] mt-[10px] ml-[-70px] lg:ml-[-80px] w-[10rem]  `}
+        className={`relative flex h-[5rem] mt-[-15px] ml-[-50px] lg:ml-[-80px] w-[5rem] lg:mt-[10px] lg:h-[10em] lg:w-[10em] `}
       >
         {short ? (
           <Image
@@ -25,7 +25,7 @@ const Logo: React.FC<LogoProps> = ({ short, long }) => {
         {long ? (
           <Image
             src={"/logo/logoname.png"}
-            className="ml-[-65px] mt-[-20px] "
+            className="ml-[-33px] mt-[-10px] lg:ml-[-65px] lg:mt-[-20px] "
             width={200}
             height={200}
             alt="Logo"

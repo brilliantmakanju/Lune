@@ -14,12 +14,14 @@ const Footer = () => {
         delay: 0.4,
         duration: 0.75,
       }}
-      className="z-[20] flex flex-wrap gap-5 justify-start  items-start pt-[100px] pb-[50px] text-left place-content-start px-[20px] relative font-bold lg:px-[100px] lg:gap-[50px] "
+      className="z-[20] flex flex-col flex-wrap tracking-tighter gap-5 justify-start  items-start pt-[10px] pb-[50px] text-left place-content-start px-[20px] relative font-bold lg:px-[100px] lg:gap-[50px] xl:container xl:mx-auto xl:py-10  "
     >
-      <Legal />
-      <Career />
-      <Social />
-      <Faq />
+      <div className="grid grid-cols-3 gap-10  lg:flex lg:flex-wrap lg:gap-[25px] ">
+        <Legal />
+        <Career />
+        <Social />
+        <Faq />
+      </div>
 
       <Bottom />
     </motion.footer>

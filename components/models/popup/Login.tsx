@@ -17,22 +17,22 @@ const LoginModal = () => {
   }, [isLoading, loginModal]);
 
   const bodyContent = (
-    <div className="flex flex-col justify-center items-center gap-2 mt-[20px] ">
+    <div className="flex flex-col justify-center items-center gap-2 mt-[10px] ">
       <Link
         href={"/"}
-        className={`px-20 py-3 font-bold text-[gold] rounded-full bg-[#A30000] `}
+        className={`px-10 py-2 text-[12px] border-[#959595] font-bold text-[gold] rounded-full bg-[#A30000] `}
       >
         Continue with Google{" "}
       </Link>
       <Link
         href={"/"}
-        className={`px-20 border-[3px] border-[#959595] py-3 font-bold text-[#A30000] rounded-full bg-[#ffffff] `}
+        className={`px-10 border-[3px] border-[gold] py-2 font-bold text-[12px] text-[#A30000] rounded-full bg-[#ffffff] `}
       >
-        Login with Facebook{" "}
+        Log in with Facebook{" "}
       </Link>
       <Link
         href={"/"}
-        className={`px-14 border-[3px] border-[#959595] py-3 font-bold text-[#A30000] rounded-full bg-[#ffffff] `}
+        className={`px-6 py-2 text-[12px]  border-[3px]  border-[gold] font-bold text-[#A30000] rounded-full bg-[#ffffff] `}
       >
         Log in with phone number
       </Link>
@@ -40,8 +40,8 @@ const LoginModal = () => {
   );
 
   const footerContent = (
-    <div className="text-neutral-400 text-center mt-4">
-      <Link className="text-[#A30000] text-[14px] underline " href={"/"}>
+    <div className="text-neutral-400 text-center mt-[-10px">
+      <Link className="text-[#A30000] text-[10px] underline " href={"/"}>
         Trouble loggin in?
       </Link>
     </div>
