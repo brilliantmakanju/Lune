@@ -92,15 +92,21 @@ const Nav = () => {
           <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
             Support
           </li>
-          <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
-            Pricing
-          </li>
-          <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
-            Contact us
-          </li>
-          <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
-            <Link href={"register"}>About us</Link>
-          </li>
+          <Link className="w-full" href={"pricing"}>
+            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+              Pricing
+            </li>
+          </Link>
+          <Link className="w-full" href="contact">
+            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+              Contact us
+            </li>
+          </Link>
+          <Link className="w-full" href={"about"}>
+            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+              About us
+            </li>
+          </Link>
         </ul>
 
         <div className="absolute bottom-12 flex flex-col justify-center items-center w-full ">

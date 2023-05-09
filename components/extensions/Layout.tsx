@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <motion.div
-      className="relative"
+      className="flex flex-col gap-3"
       key={router.route}
       initial="initialState"
       animate="animateState"

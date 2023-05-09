@@ -11,16 +11,16 @@ const Links = () => {
       } `}
     >
       <li>
-        <Link href={"/"}>Products</Link>
-      </li>
-      <li>
-        <Link href={"/"}>Learn</Link>
-      </li>
-      <li>
         <Link href={"/"}>Support</Link>
       </li>
       <li>
-        <Link href={"/"}>Download</Link>
+        <Link href={"pricing"}>Pricing</Link>
+      </li>
+      <li>
+        <Link href={"contact"}>Contact</Link>
+      </li>
+      <li>
+        <Link href={"about"}>About us</Link>
       </li>
     </ul>
   );
