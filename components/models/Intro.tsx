@@ -45,7 +45,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="flex flex-col justify-center items-center gap-5 absolute md:relative bottom-[150px] md:pt-[200px] lg:pt-[150px] z-[3] "
+        className="flex flex-col justify-center items-center gap-5 absolute md:relative bottom-[250px] md:pt-[200px] lg:pt-[150px] z-[3] "
       >
         <Link
           href="register"

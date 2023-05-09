@@ -57,7 +57,7 @@ const Nav = () => {
           mobile
             ? "fixed left-[0vw] top-0  z-[99999] "
             : "fixed left-[100vw] opacity-0 top-0 "
-        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19]  fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#f9d800] px-4 py-4 md:hidden`}
+        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19] justify-start fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#f9d800] px-4 py-4 md:hidden`}
       >
         <div className="absolute top-0 left-0 flex justify-between items-center h-[20px] w-full ">
           <div className=" mt-[60px] ml-[20px] ">
@@ -109,7 +109,7 @@ const Nav = () => {
           </Link>
         </ul>
 
-        <div className="absolute bottom-12 flex flex-col justify-center items-center w-full ">
+        <div className="absolute bottom-[150px] left-[-5px] flex flex-col justify-center items-center w-full ">
           <button
             onClick={() => onClicks()}
             className="flex justify-center items-center bg-white text-[black] py-2 text-[20px] w-[80%] rounded-full font-bold "
