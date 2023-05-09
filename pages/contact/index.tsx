@@ -7,8 +7,9 @@ const Contact = () => {
             Contact Us
           </h3>
           <p className="text-center font-bold  ">
-            We'd love to hear from you! Whether you have a question, feedback,
-            or just want to say hi, we're here for you. You can reach us at:
+            {"We'd"} love to hear from you! Whether you have a question,
+            feedback, or just want to say hi, {"we're"} here for you. You can
+            reach us at:
           </p>
           <input
             type="text"

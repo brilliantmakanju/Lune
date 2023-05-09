@@ -16,10 +16,10 @@ const AboutDoc = () => {
           <div className="lg:w-[50%]">
             <h1>About Lunedial</h1>
             <p>
-              Lunedial is the next big thing in online dating. We're here to
+              Lunedial is the next big thing in online dating. {"We're"} here to
               offer an alternative to the swiping culture that dominates other
               dating apps. We believe that true connections happen when people
-              take the time to get to know each other, and that's why we've
+              take the time to get to know each other, and {"that's"} why {"we've"}
               created a platform that encourages meaningful conversations and
               authentic connections.
             </p>
