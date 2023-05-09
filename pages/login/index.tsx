@@ -21,9 +21,9 @@ const Login = () => {
         <div className="flex flex-col items-center justify-start backdrop-blur-sm border-2 border-[#A30000] gap-1 p-2  rounded-md md:rounded-l-md h-[500px] w-[400px] md:w-[400px]  ">
           <div className="text-center text-gray-800 my-5 ">
             <h3 className="text-[35px] font-extrabold  ">Login </h3>
-            <Link href={"register"} className="font-bold text-[15px]  ">
-              Not yet a member?{" "}
-            </Link>
+            <p className="font-bold text-[15px]  ">
+              Already a member?{" "}
+            </p>
           </div>
           <form className="px-1 w-[350px] flex flex-col gap-5 items-center ">
             <input
