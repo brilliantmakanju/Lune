@@ -8,7 +8,7 @@ const Legal = () => {
       </h4>
       <ul className="flex flex-col w-[100%] gap-1 items-start justify-start text-left text-[10px] lg:text-[20px ">
         <li>Privacy</li>
-        <Link href="about">
+        <Link href="/">
           <li>About us</li>
         </Link>
         <Link href="contact">
