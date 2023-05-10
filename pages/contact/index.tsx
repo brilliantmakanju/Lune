@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <>
       <main className="pt-[100px]  flex flex-col justify-center items-center px-[10px] h-screen w-full  ">
-        <form className="flex w-[30em] flex-col justify-center rounded-[30px] items-start gap-4 bg-[gold] p-10 ">
+        <form className="flex w-[30em] flex-col justify-center rounded-[30px] items-start gap-4 px-[55px] mt-[-100px] lg:bg-[gold] p-10 ">
           <h3 className="text-left flex justify-start items-start tracking-tighter font-extrabold text-[30px]  ">
             Contact Us
           </h3>
