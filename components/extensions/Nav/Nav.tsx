@@ -89,9 +89,11 @@ const Nav = () => {
           />
         </div>
         <ul className="w-full flex justify-start items-start flex-col gap-5  ">
-          <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
-            Support
-          </li>
+          <Link className="w-full" href={"/"}>
+            <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+              Home
+            </li>
+          </Link>
           <Link className="w-full" href={"pricing"}>
             <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
               Pricing
