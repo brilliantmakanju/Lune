@@ -57,7 +57,7 @@ const Nav = () => {
           mobile
             ? "fixed left-[0vw] top-0  z-[99999] "
             : "fixed left-[100vw] opacity-0 top-0 "
-        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19] justify-start fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#f9d800] px-4 py-4 md:hidden`}
+        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19] justify-start fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#2d2a2a] px-4 py-4 md:hidden`}
       >
         <div className="absolute top-0 left-0 flex justify-between items-center h-[20px] w-full ">
           <div className=" mt-[60px] ml-[20px] ">
@@ -89,21 +89,21 @@ const Nav = () => {
           />
         </div>
         <ul className="w-full flex justify-start items-start flex-col gap-5  ">
-          <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+          <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
             Support
           </li>
           <Link className="w-full" href={"pricing"}>
-            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+            <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
               Pricing
             </li>
           </Link>
           <Link className="w-full" href="contact">
-            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+            <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
               Contact us
             </li>
           </Link>
           <Link className="w-full" href={"about"}>
-            <li className="bg-[#1a1818] text-[#ede7e7] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
+            <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
               About us
             </li>
           </Link>

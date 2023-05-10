@@ -18,13 +18,13 @@ export default function Card() {
         </ul>
         <Link
           href="/"
-          className=" border-[#15254c] border-[2px] bg-[#A30000] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
+          className=" border-[#15254c] border-[2px] bg-[black] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
         >
           Choose Plan
         </Link>
       </div>
       <div className=" relative rounded-md  shadow-md shadow-black mx-auto bg-[#e4dedee0] h-[30em] w-[300px] px-5 py-10 hover:bg-[gold] hover:text-[#A30000] hover:shadow-lg hover:shadow-[#15254c]  duration-300 transition ease-in-out muhoverEffect lg:scale-[1.17] border-2 border-[#A30000] ">
-        <span className="absolute top-0 left-0 w-full bg-[#061A40] border-2 border-[#061A40] py-2 rounded-t-md text-center font-bold text-white">
+        <span className="absolute top-0 left-0 w-full bg-[black] border-2 border-[#061A40] py-2 rounded-t-md text-center font-bold text-white">
           MOST POPULAR
         </span>
         <div>
@@ -41,7 +41,7 @@ export default function Card() {
         </ul>
         <Link
           href="/"
-          className=" border-[#15254c] border-[2px] bg-[#A30000] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
+          className=" border-[#15254c] border-[2px] bg-[black] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
         >
           Choose Plan
         </Link>
@@ -61,7 +61,7 @@ export default function Card() {
         </ul>
         <Link
           href="/"
-          className=" border-[#15254c] border-[2px] bg-[#A30000] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
+          className=" border-[#15254c] border-[2px] bg-[black] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect "
         >
           Choose Plan
         </Link>
