@@ -1,16 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;
 }
 
 @layer base {
   html {
-    @apply scroll-smooth overflow-x-hidden font-mono antialiased;
+    @apply scroll-smooth overflow-x-hidden antialiased;
   }
   body {
     @apply overflow-x-hidden relative bg-[#ffffff];
@@ -38,7 +40,7 @@
 }
 
 .leaflet-top {
-  @apply hidden w-0 h-0 lg:flex ;
+  @apply hidden w-0 h-0 lg:flex;
 }
 
 @media (min-width: 1536px) {
