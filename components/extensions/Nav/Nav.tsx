@@ -57,7 +57,7 @@ const Nav = () => {
           mobile
             ? "fixed left-[0vw] top-0  z-[99999] "
             : "fixed left-[100vw] opacity-0 top-0 "
-        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19] justify-start fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#2d2a2a] px-4 py-4 md:hidden`}
+        } duration-[0.5s] transition-all ease-in-out  pt-[72px] flex flex-col gap-[150px] z-[19] justify-start fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#2d2a2a] px-4 py-4 lg:hidden`}
       >
         <div className="absolute top-0 left-0 flex justify-between items-center h-[20px] w-full ">
           <div className=" mt-[60px] ml-[20px] ">

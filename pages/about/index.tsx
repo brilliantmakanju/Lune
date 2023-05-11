@@ -11,22 +11,29 @@ const AboutDoc = () => {
         title="About Lunedial - The Future Online Dating"
         description="Learn more about Lunedial, the exciting new dating site that's set to challenge Tinder and change the online dating game forever"
       />
-      <main className="pt-[100px] px-[20px] ">
-        <section className="text-[20px] tracking-tighter flex justify-center items-center flex-wrap gap-10 ">
-          <div className="lg:w-[50%]">
-            <h1>About Lunedial</h1>
+      <main className=" lg:pt-[150px] ">
+        <h1 className="lg:text-[50px] pl-[20px] lg:pl-[3%] bg-[#A30000] py-[140px] text-[60px] lg:py-[100px] text-white  ">
+          About{" "}
+        </h1>
+        <section className="text-[20px] tracking-tighter flex justify-start items-center lg:pl-[3%] px-[20px] pt-[40px] flex-wrap gap-10 ">
+          <div className="lg:w-[100%] lg:px-[10px] lg:tracking-wide ">
+            <div className="flex flex-col gap-1 ">
+              <h3 className="pb-[15px]  ">Our vision</h3>
+              <div className="bg-[#A30000] w-[140px] h-[3px] rounded-lg mt-[-10px] mb-[20px] " />
+            </div>
             <p>
               Lunedial is the next big thing in online dating. {"We're"} here to
               offer an alternative to the swiping culture that dominates other
               dating apps. We believe that true connections happen when people
-              take the time to get to know each other, and {"that's"} why {"we've"}
+              take the time to get to know each other, and {"that's"} why{" "}
+              {"we've"}
               created a platform that encourages meaningful conversations and
               authentic connections.
             </p>
           </div>
           {/* <img src="lunedial-logo.png" alt="Lunedial Logo" /> */}
 
-          <div>
+          {/* <div>
             <Link href={"/"}>
               <div
                 className={`relative flex h-[25rem] mt-[-15px] ml-[-300px] lg:ml-[-80px] w-[25rem] lg:mt-[10px] lg:h-[15em] lg:w-[15em] `}
@@ -46,32 +53,34 @@ const AboutDoc = () => {
                 />
               </div>
             </Link>
-          </div>
+          </div> */}
         </section>
         <section
           id="features"
-          className="flex justify-center items-center text-left flex-col gap-5  "
+          className="flex justify-start items-start text-left flex-col gap-5 lg:grid lg:grid-cols-2 lg:gap-[200pxs] lg:px-[6.5%] pt-[20px]  "
         >
-          <h2 className="flex text-[36px] justify-start items-start text-left">
-            Features
-          </h2>
-          <ul className="text-[20px] flex flex-col justify-center items-start gap-2 ">
-            <li className="py-3 hover:text-[white] text-[#211f1f] rounded-md px-3 duration-300 ease-in-out transition hover:bg-[#A30000] ">
-              Smart matching algorithm that connects users based on shared
-              interests and values
-            </li>
-            <li className="py-3 hover:text-[white] text-[#211f1f] rounded-md px-3 duration-300 ease-in-out transition hover:bg-[#A30000]  ">
-              Rich user profiles with photos, videos, and detailed bios
-            </li>
-            <li className="py-3 hover:text-[white] text-[#211f1f] rounded-md px-3 duration-300 ease-in-out transition hover:bg-[#A30000] ">
-              Chat feature that allows users to get to know each other before
-              meeting in person
-            </li>
-            <li className="py-3 hover:text-[white] text-[#211f1f] rounded-md px-3 duration-300 ease-in-out transition hover:bg-[#A30000] ">
-              Community events and activities that bring users together in a
-              fun, low-pressure environment
-            </li>
-          </ul>
+          <div className="w-full  px-[20px] ">
+            <h2 className="flex text-[36px] justify-start items-start text-left">
+              Features
+            </h2>
+            <p className="mt-[10px] lg:w-[80%] lg:text-[20px] " >
+              Lunedial is the next big thing in online dating. {"We're"} here to
+              offer an alternative to the swiping culture that dominates other
+              dating apps. We believe that true connections happen when people
+              take the time to get to know each other, and {"that's"} why{" "}
+              {"we've"}
+              created a platform that encourages meaningful conversations and
+              authentic connections.
+            </p>
+          </div>
+          <div className="relative w-[22.5em] lg:w-[40em] h-[22em] rounded-lg  overflow-hidden ml-[20px]  " >
+            <Image
+              src={"/loverBg2.jpg"}
+              alt={"Company"}
+              fill
+              className="absolute top-0 left-0 object-cover "
+            />
+          </div>
         </section>
         {/* <section id="team">
           <h2>Meet the Team</h2>
@@ -83,9 +92,6 @@ const AboutDoc = () => {
           </p>
           <img src="team-photo.jpg" alt="Lunedial Team Photo" />
         </section> */}
-        <section id="contact">
-          <Contact />
-        </section>
       </main>
     </>
   );
