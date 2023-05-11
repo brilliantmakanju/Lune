@@ -104,7 +104,7 @@ const Contact = () => {
             </label>
             <textarea
               id="msg"
-              className="w-full  h-[8.5em] bg-transparent  px-5 rounded-lg border-2 border-[#FFD639] outline-[#FFD639] pl-3 s font-bold "
+              className="w-full  h-[8.5em] bg-transparent  px-5 rounded-lg border-2 border-[#FFD639] pt-[10px] outline-[#FFD639] pl-3 s font-bold "
             />
           </div>
           <button className="py-4 px-[8rem] border-2  text-[white]  ">
