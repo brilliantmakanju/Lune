@@ -32,7 +32,7 @@ const Nav = () => {
         }}
         className={`w-screen h-20 flex justify-between items-center z-[100] lg:mb-[-5em] px-12  xl:w-[100vw] ${
           router.route === "/"
-            ? "bg-transparent "
+            ? "bg-[#121111a6]  "
             : "bg-[#121111a6] h-10 pt-10 pb-5 lg:pb-10 "
         } `}
       >

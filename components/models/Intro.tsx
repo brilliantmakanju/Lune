@@ -26,7 +26,7 @@ const Intro = () => {
       }}
       className="h-[110vh] w-screen  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] lg:mt-[-15px] overflow-none bg-loverBgMd lg:bg-loverBgLg   "
     >
-      <div className="absolute top-[0px]  left-0 w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " />
+      {/* <div className=" w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " /> */}
       <motion.h2
         initial={{ y: -25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -34,7 +34,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="text-[40px] lg:text-[50px] w-[100%] px-[20px] tracking-tighter leading-[3.5rem] text-center flex justify-center items-center text-[#FFD639] z-[3] md:w-[50%] md:px-[20px] lg:w-[80%] xl:w-[40%] mt-[-5em] md:mt-[4em] lg:mt-[1em] xl:text-[5em]  2xl:text-[5.5em] 2xl:w-[40%] ] 2xl:leading-[5rem] "
+        className="text-[40px] lg:text-[50px] w-[100%] px-[20px] tracking-tighter leading-[5.5rem] text-center flex justify-center items-center text-[#FFD639] z-[3] md:w-[50%] md:px-[20px] lg:w-[80%] xl:w-[40%] mt-[-5em] md:mt-[4em] lg:mt-[1em] xl:text-[5em]  2xl:text-[5.5em] 2xl:w-[40%] ] 2xl:leading-[5rem] "
       >
         Find your Perfect Match
       </motion.h2>
@@ -45,7 +45,7 @@ const Intro = () => {
           delay: 0.4,
           duration: 0.75,
         }}
-        className="flex flex-col justify-center items-center gap-5 absolute md:relative bottom-[220px] md:pt-[200px] lg:pt-[250px] z-[3] "
+        className="flex flex-col justify-center items-center gap-5 absolute md:relative bottom-[230px] md:pt-[200px] lg:pt-[250px] z-[3] "
       >
         <Link
           href="register"

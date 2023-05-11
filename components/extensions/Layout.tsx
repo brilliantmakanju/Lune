@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <motion.div
-      className="flex flex-col gap-3"
+      className="flex flex-col gap-0"
       key={router.route}
       initial="initialState"
       animate="animateState"
@@ -31,7 +31,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         },
         exitState: {
           clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
-        },
+        }
       }}
     >
       <Nav />
