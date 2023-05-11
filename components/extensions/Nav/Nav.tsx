@@ -104,7 +104,7 @@ const Nav = () => {
               Contact us
             </li>
           </Link>
-          <Link className="w-full" href={"/"}>
+          <Link className="w-full" href={"about"}>
             <li className="bg-[#1a1818] text-[white] w-full px-3 py-3 font-bold text-[15px] rounded-md ">
               About us
             </li>

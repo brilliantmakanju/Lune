@@ -20,7 +20,7 @@ const Links = () => {
         <Link href={"contact"}>Contact</Link>
       </li>
       <li>
-        <Link href={"/"}>About us</Link>
+        <Link href={"about"}>About us</Link>
       </li>
     </ul>
   );
