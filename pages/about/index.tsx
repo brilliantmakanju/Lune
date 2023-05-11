@@ -11,8 +11,8 @@ const AboutDoc = () => {
         title="About Lunedial - The Future Online Dating"
         description="Learn more about Lunedial, the exciting new dating site that's set to challenge Tinder and change the online dating game forever"
       />
-      <main className=" lg:pt-[150px] ">
-        <h1 className="lg:text-[50px] pl-[20px] lg:pl-[3%] bg-[#A30000] py-[140px] text-[60px] lg:py-[100px] text-white  ">
+      <main className="  ">
+        <h1 className="lg:text-[50px] pl-[20px] lg:pl-[3%] bg-[#A30000] py-[140px] text-[60px] lg:py-[140px] text-white  ">
           About{" "}
         </h1>
         <section className="text-[20px] tracking-tighter flex justify-start items-center lg:pl-[3%] px-[20px] pt-[40px] flex-wrap gap-10 ">
