@@ -26,7 +26,7 @@ const Intro = () => {
       }}
       className="h-[110vh] w-screen  ml-[0px] flex flex-col gap-10 justify-center items-center relative mt-[-10px] lg:mt-[-15px] overflow-none bg-loverBgMd lg:bg-loverBgLg   "
     >
-      {/* <div className=" w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " /> */}
+      <div className="absolute top-0 left-0 w-full h-[110vh] lg:top-[0] bg-[#000000ba]  " />
       <motion.h2
         initial={{ y: -25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
