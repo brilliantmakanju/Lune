@@ -11,17 +11,17 @@ const AboutDoc = () => {
         title="About Lunedial - The Future Online Dating"
         description="Learn more about Lunedial, the exciting new dating site that's set to challenge Tinder and change the online dating game forever"
       />
-      <main className="  ">
-        <h1 className="lg:text-[50px] pl-[20px] lg:pl-[3%] bg-[#A30000] py-[140px] text-[60px] lg:py-[140px] text-white  ">
+      <main className=" lg:pt-[68px] ">
+        <h1 className="lg:text-[50px] pl-[20px] lg:pl-[3%] bg-[#A30000] py-[140px] text-[60px] lg:py-[100px] text-white  ">
           About{" "}
         </h1>
         <section className="text-[20px] tracking-tighter flex justify-start items-center lg:pl-[3%] px-[20px] pt-[40px] flex-wrap gap-10 ">
           <div className="lg:w-[100%] lg:px-[10px] lg:tracking-wide ">
             <div className="flex flex-col gap-1 ">
-              <h3 className="pb-[15px]  ">Our vision</h3>
-              <div className="bg-[#A30000] w-[140px] h-[3px] rounded-lg mt-[-10px] mb-[20px] " />
+              <h3 className="pb-[15px] lg:text-[30px]  ">Our vision</h3>
+              <div className="bg-[#A30000] w-[200px] h-[3px] rounded-lg mt-[-10px] mb-[20px] " />
             </div>
-            <p>
+            <p className=" lg:pl-[15px] lg:pb-[100px] lg:text-[25px]  lg:tracking-tight lg:pr-[150px]" >
               Lunedial is the next big thing in online dating. {"We're"} here to
               offer an alternative to the swiping culture that dominates other
               dating apps. We believe that true connections happen when people
@@ -61,7 +61,7 @@ const AboutDoc = () => {
         >
           <div className="w-full  px-[20px] ">
             <h2 className="flex text-[36px] justify-start items-start text-left">
-              Features
+              Meet the team
             </h2>
             <p className="mt-[10px] lg:w-[80%] lg:text-[20px] " >
               Lunedial is the next big thing in online dating. {"We're"} here to
