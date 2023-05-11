@@ -21,7 +21,7 @@ const AboutDoc = () => {
               <h3 className="pb-[15px] lg:text-[30px]  ">Our vision</h3>
               <div className="bg-[#A30000] w-[200px] h-[3px] rounded-lg mt-[-10px] mb-[20px] " />
             </div>
-            <p className=" lg:pl-[15px] lg:pb-[100px] lg:text-[25px]  lg:tracking-tight lg:pr-[150px]" >
+            <p className=" lg:pl-[15px] lg:pb-[100px] lg:text-[25px]  lg:tracking-tight lg:pr-[150px]">
               Lunedial is the next big thing in online dating. {"We're"} here to
               offer an alternative to the swiping culture that dominates other
               dating apps. We believe that true connections happen when people
@@ -63,7 +63,7 @@ const AboutDoc = () => {
             <h2 className="flex text-[36px] justify-start items-start text-left">
               Meet the team
             </h2>
-            <p className="mt-[10px] lg:w-[80%] lg:text-[20px] " >
+            <p className="mt-[10px] lg:w-[80%] lg:text-[20px] ">
               Lunedial is the next big thing in online dating. {"We're"} here to
               offer an alternative to the swiping culture that dominates other
               dating apps. We believe that true connections happen when people
@@ -73,7 +73,7 @@ const AboutDoc = () => {
               authentic connections.
             </p>
           </div>
-          <div className="relative w-[22.5em] lg:w-[40em] h-[22em] rounded-lg  overflow-hidden ml-[20px]  " >
+          <div className="relative w-[22.5em] lg:w-[40em] h-[22em] rounded-lg  overflow-hidden ml-[20px]  ">
             <Image
               src={"/loverBg2.jpg"}
               alt={"Company"}

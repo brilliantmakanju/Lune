@@ -8,6 +8,11 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import dynamic from "next/dynamic";
+
+const MapCont = dynamic(() => import("../../components/models/map/map"), {
+  ssr: false,
+});
 
 const Contact = () => {
   return (
@@ -22,31 +27,31 @@ const Contact = () => {
             feedback, or just want to say hi, {"we're"} here for you. You can
             reach us at:
             <ul className="grid grid-cols-5 gap-1 lg:w-[40%] py-[10px]  place-content-center items-start justify-start text-left lg:grid-cols-5 lg:gap-[1px] ">
-              <li className="text-[30px] ">
-                <Link href={"/"}>
+              <Link href={"/"}>
+                <li className="text-[30px] ">
                   <FaInstagram />
-                </Link>
-              </li>
-              <li className="text-[30px] ">
-                <Link href={"/"}>
+                </li>
+              </Link>
+              <Link href={"/"}>
+                <li className="text-[30px] ">
                   <FaTwitter />
-                </Link>
-              </li>
-              <li className="text-[30px] ">
-                <Link href={"/"}>
+                </li>
+              </Link>
+              <Link href={"/"}>
+                <li className="text-[30px] ">
                   <FaYoutube />
-                </Link>
-              </li>
-              <li className="text-[30px] ">
-                <Link href={"/"}>
+                </li>
+              </Link>
+              <Link href={"/"}>
+                <li className="text-[30px] ">
                   <FaFacebookF />
-                </Link>
-              </li>
-              <li className="text-[30px] ">
-                <Link href={"/"}>
+                </li>
+              </Link>
+              <Link href={"/"}>
+                <li className="text-[30px] ">
                   <FaTiktok />
-                </Link>
-              </li>
+                </li>
+              </Link>
             </ul>
           </p>
         </div>
@@ -107,6 +112,9 @@ const Contact = () => {
           </button>
         </form>
       </main>
+      <section className="px-[10%]">
+        <MapCont />
+      </section>
     </>
   );
 };
