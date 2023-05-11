@@ -25,35 +25,35 @@ const Contact = () => {
           <p className="text-left mt-[10px] lg:mt-[20px] lg:text-[20px] lg:w-[90%]   ">
             {"We'd"} love to hear from you! Whether you have a question,
             feedback, or just want to say hi, {"we're"} here for you. You can
-            reach us at:
-            <ul className="grid grid-cols-5 gap-1 lg:w-[40%] py-[10px]  place-content-center items-start justify-start text-left lg:grid-cols-5 lg:gap-[1px] ">
-              <Link href={"/"}>
-                <li className="text-[30px] ">
-                  <FaInstagram />
-                </li>
-              </Link>
-              <Link href={"/"}>
-                <li className="text-[30px] ">
-                  <FaTwitter />
-                </li>
-              </Link>
-              <Link href={"/"}>
-                <li className="text-[30px] ">
-                  <FaYoutube />
-                </li>
-              </Link>
-              <Link href={"/"}>
-                <li className="text-[30px] ">
-                  <FaFacebookF />
-                </li>
-              </Link>
-              <Link href={"/"}>
-                <li className="text-[30px] ">
-                  <FaTiktok />
-                </li>
-              </Link>
-            </ul>
+            reach us at
           </p>
+          <ul className="grid grid-cols-5 gap-1 lg:w-[40%] py-[10px]  place-content-center items-start justify-start text-left lg:grid-cols-5 lg:gap-[1px] ">
+            <Link href={"/"}>
+              <li className="text-[30px] ">
+                <FaInstagram />
+              </li>
+            </Link>
+            <Link href={"/"}>
+              <li className="text-[30px] ">
+                <FaTwitter />
+              </li>
+            </Link>
+            <Link href={"/"}>
+              <li className="text-[30px] ">
+                <FaYoutube />
+              </li>
+            </Link>
+            <Link href={"/"}>
+              <li className="text-[30px] ">
+                <FaFacebookF />
+              </li>
+            </Link>
+            <Link href={"/"}>
+              <li className="text-[30px] ">
+                <FaTiktok />
+              </li>
+            </Link>
+          </ul>
         </div>
         <form className="flex w-[100%] flex-col justify-center rounded-[30px] items-start gap-4 px-[5px]  text-black  p-10 lg:px-[50px] lg:w-[100%]  ">
           <div className="flex flex-col justify-start items-start  w-full ">
@@ -112,7 +112,7 @@ const Contact = () => {
           </button>
         </form>
       </main>
-      <section className="px-[10%]">
+      <section className="px-[2%] lg:px-[10%]">
         <MapCont />
       </section>
     </>
